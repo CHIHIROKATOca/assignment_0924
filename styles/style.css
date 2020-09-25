@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+*, *:before, *::after{
+    box-sizing: inherit;
+}
+
+.container{
+    max-width:800px;
+    margin:20px auto;
+}
+
+#list-container {
+    padding: 20px;
+}
+
+.completed {
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
